@@ -30,7 +30,4 @@ jobs:
           convert_markdown: true
           attachments: attachments.zip,git.diff,./dist/static/*.js
           priority: low
-          nodemailerlog: false
-          nodemailerdebug: false
-          envelope_from: mailer@example.com
-          envelope_to: mailer@example.com,admin@example.com
+        
